@@ -1,0 +1,11 @@
+[package]
+name = "gxhash-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gxhash = "3.4.1"
+
+[profile.release]
+debug = true
+debug-assertions = true
